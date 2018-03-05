@@ -1,0 +1,118 @@
+body { /*# Страница */
+	color: #2E2E2E;
+	background: #FFFFFF;
+}
+.header { /*# Заголовок */
+	background-color: rgba(0, 0, 0, 0.90);
+}
+.header__unit .fa-mobile { /*# Цвет иконки телефона */
+	color:#DE3322;
+}
+.btn { /*# Кнопки */
+	color: #FFFFFF;
+	background: #DE3322;
+}
+.btn_hd_cb { /*# Кнопка закзать звонок */
+	background: #55BB00;
+}
+.action { /*# Баннер акция */
+	background: rgba(0, 0, 0, 0.60);
+}
+.action__title { /*# Заголовок баннера акция */
+	border-color:#FFFFFF;
+}
+.action__box { /*# Информация в акции */
+	background: #88898A;
+}
+.action__price_old .action__price__val { /*# Старая цена в акции */
+	color: #DE3322;
+}
+.action__price__val { /*# Цена в акции */
+	color: #E9EBEC;
+}
+.wrap_cover { /*# Подложка с картинкой */
+	color:#FFFFFF;
+}
+.wrap_cs { /*# Пождожка с градиентом */
+	color:#000000;
+	background-color: #E6E6E6;
+}
+.wrap_gray { /*# Подложка серая */
+	background: #FFFFFF;
+}
+.wrap_gray h2 { /*# Заголовок серой подложки */
+	color:#000000;
+}
+.wrap_blue { /*# Подложка синяя */
+	background: #4DBBB7;
+	color: #FFFFFF;
+}
+.wrap_white { /*# Подложка белая */
+	background-color: #FFFFFF;
+	color: #DE3322;
+}
+.wrap_white h2 { /*# Заголовок белой подложки */
+	color: #DE3322;
+}
+.form { /*# Формы */
+	background: #FFFFFF;
+}
+.form h2 { /*# Заголовки формы */
+	color: #DE3322;
+}
+.form__unit { /*# Пояснение формы */
+	color: #000000;
+}
+.form__info { /*# Текст под формой */
+	color:#8E8E8E;
+}
+input[type=text], input[type=password], input[type=tel], input[type=email],
+select, textarea { /*# Поля ввода */
+	border-color: #8E8E8E;
+	color: #8E8E8E;
+}
+.multi__item { /*# Блок товара */
+	background: #E6E6E6;
+	color: #000000;
+}
+.multi__unit { /*# Описание товара */
+	background: rgba(230, 230, 230, 0.30);
+}
+.multi__prev, .multi__next { /*# Стрелки слайдера товаров */
+	color:#DE3322;
+}
+.multi__item__price { /*# Цена в блоке */
+	color: #DE3322;
+}
+.multi__item__price_old { /*# Старая цена в блоке */
+	color: #000;
+}
+.multi__item__desc { /*# Описание товара в блоке */
+	border-color: #000000;
+	color: #000;
+}
+.comments__item__person { /*# Имя в отзывах */
+	color: #FFFFFF;
+}
+.footer { /*# Подвал */
+	background: #000000;
+	color: #FFFFFF;
+}
+.popups__overlay { /*# Фон при всплывающем окне */
+	background: rgba(0, 0, 0, 0.80);
+}
+.popups__close { /*# Закрыть во вспылвающем окне */
+	background: transparent;
+}
+.popup { /*# Всплывающее окно */
+	background: #FFFFFF;
+}
+.popup__info h3 { /*# Заголовок всплывающего окна */
+	color: #DE3322;
+}
+.popup__price_old { /*# Старая цена в сплывающем окне */
+	color:#BBC3C6;
+}
+.popup__price { /*# Цена в сплывающем окне */
+	color:#DE3322;
+}
